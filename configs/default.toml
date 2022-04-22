@@ -1,0 +1,14 @@
+[model]
+n_components = 3
+covariance_type = "full"
+tol = 1e-4
+max_iter = 100
+n_init = 5
+reg_covar = 1e-6
+random_state = 42
+
+[benchmark]
+samples = 1000
+features = 10
+components = 3
+seed = 42
